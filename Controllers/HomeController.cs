@@ -18,10 +18,10 @@ namespace TestProjectGit.Controllers
             _logger = logger;
         }
 
-
-
-        
-        //;;;;ooogfg
+        public HomeController(ILogger<HomeController> logger,int id)
+        {
+            _logger = logger;
+        }
 
         public IActionResult Index()
         {
